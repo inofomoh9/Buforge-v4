@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0ff;
+  text-align: center;
+  padding: 2em;
+}
+#controls {
+  margin-bottom: 20px;
+}
+#comic-pages {
+  width: 80%;
+  margin: auto;
+}
+.page {
+  display: none;
+  border: 2px solid #999;
+  margin: 10px auto;
+  padding: 10px;
+  background: white;
+}
+.page.active {
+  display: block;
+}
+.page img {
+  max-width: 100%;
+}
